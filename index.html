@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ffefa2702e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("DccmVtxtHvPZp1h2G");
+    })();  
+    </script>
+</head>
+
+<body>
+    <div class="scroll-up-btn">
+        <i class="fa-solid fa-3x fa-jet-fighter-up"></i>
+    </div>
+    
+    <nav class="navbar" id="navbar">
+        <div class="max-width">
+            <div class="navbar-brand text-color">Chinwuba</div>
+        
+            <a  class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+   
+            <ul class="nav-link">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- home section  -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Chinwuba Chukwudi.</div>
+                <div class="text-3">I'm a <span class="typing"></span></div>
+                <button class=" home-btn"><a href="#">Hire Me</a></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About me -->
+
+    <section class="about text-color" id="about">
+        <div class="max-width">
+            <h2 class="main-text">About Me</h2>
+            <div class="about-content">
+                <div class="text-and-resume about-space">
+                    <p>Hello! My name is Chinwuba and I enjoy creating things that live on the 
+                        internet. My interest in web development started back in 2017 when I decided 
+                        to try editing custom Tumblr themes — turns out hacking together a custom reblog 
+                        button taught me a lot about HTML & CSS!
+                    </p>
+                    <button class=" about-btn small-btn"><a href="#">Resume</a></button>
+                </div>
+                <img src="images/pexels-skitterphoto-909.jpg" class="about-image about-space" alt="my pic">
+            </div>
+        </div>
+    </section>
+
+     <!-- Services  section-->
+     <section class="services text-color" id="service">
+        <div class="max-width">
+            <h2 class="title main-text">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto distinctio, ea magnit?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="text">Advertising</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto distinctio, ea magnit?</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Apps design</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto distinctio, ea magnit?</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Sections -->
+    <section class="skills text-color" id="skills"> 
+        <div class="max-width">
+            <h2 class="main-text">Skills</h2>
+            <p class="main-p">Here are a few technologies I’ve been working with recently:</p>
+            <div class="my-skills">
+                <div class="skills-icons">
+                    <i class="fa-brands fa-5x change-color fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skills-icons">
+                    <i class="fa-brands change-color fa-5x fa-css3"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skills-icons">
+                    <i class="fa-brands change-color fa-5x fa-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skills-icons">
+                    <i class="fa-brands change-color fa-5x fa-bootstrap"></i>
+                    <p>BootStrap</p>
+                </div>
+                <div class="skills-icons">
+                    <i class="fa-brands change-color fa-5x fa-css3-alt"></i>
+                    <p>TailWind Css</p>
+                </div>
+                <div class="skills-icons">
+                    <i class="fa-brands change-color fa-5x fa-react"></i>
+                    <p>React Js</p>
+                </div>
+                <div class="skills-icons">
+                    <i class="fa-brands change-color fa-5x fa-node"></i>
+                    <p>Node</p>
+                </div>
+                <div class="skills-icons">
+                    <i class="fa-brands change-color fa-5x fa-wordpress"></i>
+                    <p>WordPress</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- WORK SECTION-->
+    <section class="work text-color" id="work"> 
+
+        <div class="max-width">
+            <h2 class="main-text">Some Things I’ve Built</h2>
+
+            <div class="project-container">
+                <div class="project-1 flex-content">
+                    <img src="" alt="project image" class="product-img">
+                    <div class="project-description-and-links">
+                        <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quos aut earum qui corrupti vitae sapiente, unde voluptatum mollitia iusto.</p>
+                        <div class="project-links">
+                            <button class="project-link small-btn"><a href="#">Live Site</a></button>
+                            <button class="project-link small-btn"><a href="#">View Code</a></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-2 flex-content">
+                    <img src="" alt="project image" class="product-img">
+                    <div class="project-description-and-links">
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet exercitationem, cum mollitia voluptatem nisi pariatur iure labore esse corrupti.</p>
+                        <div class="project-links">
+                            <button class="project-link small-btn"><a href="#">Live Site</a></button>
+                            <button class="project-link small-btn"><a href="#">View Code</a></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-3 flex-content">
+                    <img src="" alt="project image" class="product-img">
+                    <div class="project-description-and-links">
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus porro assumenda soluta non minima similique!</p>
+                        <div class="project-links">
+                            <button class="project-link small-btn"><a href="#">Live Site</a></button>
+                            <button class="project-link small-btn"><a href="#">View Code</a></button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="project-4 flex-content">
+                    <img src="" alt="project image" class="product-img">
+                    <div class="project-description-and-links">
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta possimus odio pariatur tempora in dolores?</p>
+                        <div class="project-links">
+                            <button class="project-link small-btn"><a href="#">Live Site</a></button>
+                            <button class="project-link small-btn"><a href="#">View Code</a></button>
+                        </div>
+
+                    </div>
+                </div>
+    
+                
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- contact section -->   
+    <section class="contact-me text-color" >
+        <div class="max-width">
+            <h2 class="main-text">Get in touch</h2>
+            <p>Whether you have an idea for a project or just want to chat, feel free to shoot me an email!</p>
+            <div class="contact" id="contact">
+                <form class="container">
+                    <div class="row100">
+                        <div class="col">
+                            <div class="input-box">
+                                <input type="text" id="first-name" required="required">
+                                <span class="text">First Name</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+        
+                        <div class="col">
+                            <div class="input-box">
+                                <input type="text" id="last-name" required="required">
+                                <span class="text">Last Name</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row100">
+                        <div class="col">
+                            <div class="input-box">
+                                <input type="email" id="client-email" required="required">
+                                <span class="text">Email</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+        
+                        <div class="col">
+                            <div class="input-box">
+                                <input type="text" id="subject" required="required">
+                                <span class="text">Subject</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row100">
+                        <div class="col">
+                            <div class="input-box textarea">
+                                <textarea id="message" required="required"></textarea>
+                                <span class="text">Type your message here...</span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="send-mail">
+                        <button class="small-btn mail-submit-btn"><a href="#">Send</a></button>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+        
+        
+        
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="footer-content max-width">
+            <div class="footer-icons  fa-2x">
+                <a target="_blank" href="https://github.com/chiizzy1"><i class="fa-brands icon fa-github"></i> </a>
+                <a target="_blank" href="https://twitter.com/Chinwuba15?t=5eLJykgoXR9MSyEI2pWK-Q&s=09"><i class="fa-brands icon fa-twitter"></i> </a>
+                <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBZpHvKhCgtcSshjXbChpcnchWrcmdvKWwKQHjPXDXtRlQRsVnMxTZwmlfmBkXcdnwLCL"><i class="fa-solid icon fa-envelope"></i> </a>
+                <a target="_blank" href="https://www.linkedin.com/in/chinwuba-chukwudi-2a0164236"><i class="fa-brands icon fa-linkedin"></i> </a>    
+            </div>
+            
+            <p class="copyright">Designed and Built by Chinwuba Chukwudi | <span class="far fa-copyright"></span> 2022 All rights reserved.</p>
+        </div>
+        
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
